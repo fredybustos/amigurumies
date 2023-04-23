@@ -40,7 +40,7 @@ export default function Amigurumi() {
           autoFocus
           type="text"
           value={value}
-          placeholder="Buscar..."
+          placeholder="Buscar.. Elefante, perro, llavero de  una mariposa, etc..."
           onChange={onChange}
           onKeyDown={onKeyDown}
         />
