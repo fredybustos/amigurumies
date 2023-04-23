@@ -4,13 +4,13 @@ Amigurimies is a web application that allows users to find or create patterns to
 
 ### Try Amigurimies
 
-You can try Amigurimies right now by visiting [https://www.amigurimies.com](https://www.amigurimies.com). 
+You can try Amigurimies right now by visiting [Amigurumies](https://www.amigurimies.com). 
 
 ### Installation
 
 To install Amigurimies locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/amigurimies.git`
+1. Clone this repository: `git clone https://github.com/fredybustos/amigurumies.git`
 2. Navigate to the project directory: `cd amigurimies`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
