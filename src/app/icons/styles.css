@@ -1,0 +1,20 @@
+.icon-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #4b8288;
+}
+
+
+.btn-hover:hover{
+  border-color: #ccc;
+}
+
+.btn-clear {
+  border: none;
+}
+
+.btn-close:hover {
+  border-color: 'transparent' !important;
+}
