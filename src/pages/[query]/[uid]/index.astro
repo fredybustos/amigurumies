@@ -1,0 +1,37 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Amigurumi from '@/components/amigurumi';
+import BreadCrumbs from '@/components/breadcrumbs/index.astro'
+import { Image } from 'astro:assets'
+import Logo from '../../../../public/logo.png'
+
+const { uid = '', query = '' } = Astro.params;
+
+---
+
+<Layout title="Amigurumis" description="Search great amigurumis!">
+  <section class="text-left m-auto max-w-screen-xl px-10 pb-12" transition:name='amigu box' >
+    <figure class="w-full max-w-[70%] m-auto">
+			<Image
+				src="/logo.png"
+				alt="logo-amigu"
+				width={Logo.width}
+				height="250"
+				format="webp"
+				quality={80}
+        transition:name='amiguimage image'
+			/>
+		</figure>
+    <BreadCrumbs className='sticky top-0 py-6 bg-[#232323]' home='Home' href="/">{query}</BreadCrumbs>
+    <Amigurumi client:load uid={uid} />
+  </section>
+</Layout>
+
+
+<style is:global>
+	body {
+		font-family: 'Rubik Variable', sans-serif;
+		background: rgb(35, 35, 35);
+	}
+</style>
+
