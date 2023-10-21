@@ -4,7 +4,7 @@ Amigurimies is a web application that allows users to find or create patterns to
 
 ### Try Amigurimies
 
-You can try Amigurimies right now by visiting [Amigurumies](https://amigurumies.netlify.app/). 
+You can try Amigurimies right now by visiting [Amigurumies](https://amigurimis.vercel.app). 
 
 ### Installation
 
